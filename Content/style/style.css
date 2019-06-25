@@ -1,0 +1,23 @@
+body
+{
+	background-image: url('../Images/HomeBackground.JPG');
+}
+#nav
+{
+	background-color: #4F7BAF;
+}
+#card-form
+{
+	width: auto;
+}
+footer
+{
+	background-color: #4F7BAF;
+	position: fixed;
+	bottom: 0;
+}
+#log-in-content
+{
+	margin: auto;
+	width: 40%;
+}
