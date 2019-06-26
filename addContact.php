@@ -38,7 +38,7 @@ require_once 'Controller/addContactCtrl.php';
         </div>
         <?php 
             if (isset($errors['firstName']))
-            {
+            { 
                 ?>
                 <ul class="alert alert-danger list-unstyled">
                 <?php
