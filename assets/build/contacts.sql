@@ -29,5 +29,4 @@ CREATE TABLE IF NOT EXISTS `contacts` (
 --(13, 'text', 'test', 'text@test.com', '0504030201'),
 --(14, 'text', 'test', 'text@test.com', '0504030201'),
 --(15, 'text', 'test', 'text@test.com', '0504030201'),
---(21, 'boloss', 'bobo', 'boboboloss@boloss.bo', '0506070809'),
 --(20, 'becquerel', 'nicolas', 'becquerel.nicolas@outlook.fr', '0102030405');
