@@ -2,10 +2,7 @@
 require 'model/model.php';
 
 // si tous les champs sont vides, c'est la 'première' fois qu'on navigue sur addContact, donc on n'effectue pas les vérifs.
-if (empty($_POST['lastName']) && empty($_POST['firstName']) && empty($_POST['mail']) && empty($_POST['phoneNumber']))
-{
-}
-else
+if (!empty($_POST['lastName']) || !empty($_POST['firstName']) || !empty($_POST['mail']) || !empty($_POST['phoneNumber']))
 {
     // déclarations des regexs
     $nameRegex = "#^[A-Za-zéàèêëïîç\- ]+$#";

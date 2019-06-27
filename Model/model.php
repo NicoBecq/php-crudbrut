@@ -11,7 +11,7 @@ function DbCon()
         $db = mysqli_connect($server, $username, $password, $dbname);
         return $db;
     }
-    catch (PDOException $e)
+    catch (Exception $e)
     {
         die('Erreur : ' . $e->getErrorMessage());
     }
