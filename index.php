@@ -1,7 +1,6 @@
 <?php 
 $title = 'Liste des contacts';
-require 'Controller/controller.php';
-$contacts = getContacts();
+require 'Controller/indexCtrl.php';
 ?>
 
 <?php ob_start() ?>
@@ -28,7 +27,7 @@ $contacts = getContacts();
                             <td>
                                 <a href="profil.php?contact=<?= $contact['idContact'] ?>" class="badge badge-info">Modifier</a>
                                 |
-                                <a href="delete.php?contact=<?= $contact['idContact'] ?>" class="badge badge-danger delete-button">Supprimer</a>
+                                <a href="Controller/deleteCtrl.php?contact=<?= $contact['idContact'] ?>" class="badge badge-danger delete-button">Supprimer</a>
                             </td>
                         </tr>
                         <?php
